@@ -48,18 +48,18 @@
 
 
 .header__title {  
-  width: 730px; 
+  width: 730px;
   line-height: 96px;
-  font-size: 102px;  
+  font-size: 102px;
   text-align: left;
  /* parameters for the header title */  
 }
 
 
 .header__subtitle {  
-  width: 388px; 
-  bottom: 30px;  
-  flex-wrap: wrap;  
+  width: 388px;
+  bottom: 30px;
+  flex-wrap: wrap;
   height: 25px;
   font-size: 18px;
  /* parameters for the header subtitle */  
@@ -71,7 +71,7 @@
 }
 
 .header__ilustration {
-  position: absolute;   
+  position: absolute;
   height: 608px;
   width: 756px;
   bottom: 0;
@@ -110,7 +110,7 @@ section {
 .two-columns {
   display: flex;
   justify-content: space-between;
-  height: auto; 
+  height: auto;
   width: 80%; 
 }
 
@@ -123,9 +123,9 @@ section {
 
 .two-columns__main-text {
   width: 80%;
-  min-width: 784px;  
+  min-width: 784px;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   flex-basis: auto;
 }
 
@@ -141,7 +141,7 @@ section {
 
 .digits {
   display: flex;
-  margin: 100px auto 0;  
+  margin: 100px auto 0;
   justify-content: center;
   flex-wrap: wrap;  
 }
@@ -156,7 +156,7 @@ section {
 
 .digits__subtitle {  
   text-align: center;
-  width: 60%;  
+  width: 60%;
   line-height: 34px;
   font-size: 24px;  
 }
@@ -174,7 +174,7 @@ section {
 
 .table__cell {
   display: flex;
-  width: 250px;  
+  width: 250px;
   padding: unset;
   flex-direction: column;
   margin-top: 60px;
@@ -184,7 +184,7 @@ section {
   display: flex;
   align-self: flex-start;
   line-height: 1.15;
-  font-size: 24px;  
+  font-size: 24px;
   padding: unset;  
 }
 
@@ -193,15 +193,15 @@ section {
   align-self: flex-start;
   left: 0;
   line-height: 1.2;
-  font-size: 18px;  
+  font-size: 18px;
   padding: unset;
   margin-top: 20px;
 }
 
 .feynman {  
   position: relative;
-  margin: 100px auto 0;  
-  height: 790px; 
+  margin: 100px auto 0;
+  height: 790px;
   background-color: #f2f2f2;
   display: flex;
   align-items: center;
@@ -209,36 +209,36 @@ section {
 }
 
 .feynman__title {        
-  text-align: center; 
+  text-align: center;
   width: 775px;
   margin-bottom: 70px;
   line-height: 1.15;
-  font-size: 120px;  
-  margin-top: 0px;  
+  font-size: 120px;
+  margin-top: 0px;
   z-index: 100;
 }
 
 .feynman__subtitle { 
-  text-align: center; 
+  text-align: center;
   line-height: 51px;
-  font-size: 36px; 
+  font-size: 36px;
   z-index: 100;  
 }
 
 .feynman__link {   
   position: absolute;
   line-height: 51px;
-  font-size: 36px; 
+  font-size: 36px;
   color: #2f80ed;
-  right: 48px;  
+  right: 48px;
   top: 50%;
 }
 
 .feynman__image {  
   width: 867px;
-  height: 637px;   
+  height: 637px;
   align-self: flex-end;
-  position: absolute;  
+  position: absolute;
   bottom: 0;
   left: 0;
 }
@@ -257,7 +257,7 @@ section {
 .kaufman__title {  
   color: white;
   line-height: 69px;
-  font-size: 60px; 
+  font-size: 60px;
   text-align: center;
   width: 80%;
   margin-bottom: 20px;
@@ -267,7 +267,7 @@ section {
 .kaufman__subtitle { 
   color: white;
   line-height: 34px;
-  font-size: 24px; 
+  font-size: 24px;
   text-align: center;
   z-index: 1;
 }
@@ -323,13 +323,13 @@ section {
 
 .footer__column-heading {
   line-height: 30px;
-  font-size: 18px;  
+  font-size: 18px;
   margin-bottom: 20px;
 }
 
 .footer__column-link {
   line-height: 30px;
-  font-size: 18px;  
+  font-size: 18px;
   padding: 0;
   color: #2f80ed;
   list-style: none;    
@@ -342,19 +342,15 @@ section {
 .footer__columns__content__social {
   flex-direction: column;
   list-style: none;
-  display: flex;  
+  display: flex;
   width: 120px;  
 }
 
 .footer__social-icons { 
   align-items: center;
   width: 16px;
-  height: 16px; 
+  height: 16px;
   margin-right: 10px;  
-}
-
-.footer__column-link {
-  color: #2f80ed;
 }
 
 .logo_place_footer {

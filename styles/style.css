@@ -51,6 +51,7 @@
   width: 388px;
   bottom: 30px;
   flex-wrap: wrap;
+  line-height: 25px;
   font-size: 18px;
   position: absolute;
   display: flex;
@@ -105,6 +106,7 @@
   justify-content: space-between;
   height: auto;
   width: 80%;
+  margin: 0 auto;
 }
 
 .two-columns__brief {
@@ -141,7 +143,7 @@
 
 .digits {
   display: flex;
-  margin: 100px auto 0;
+  margin: 100px auto 100px;
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
@@ -175,6 +177,7 @@
   list-style: none;
   justify-content: space-between;
   align-content: space-between;
+  padding: 0;
 }
 
 .table__cell {
@@ -252,8 +255,10 @@
 
 .feynman__image {
   width: 867px;
-  height: 637px;
-  align-self: flex-start;
+  height: 637px;  
+  position: absolute;
+  bottom: 0;
+  left: 0;
   }
 
 .kaufman {
@@ -267,13 +272,13 @@
   overflow: hidden;
 }
 
-.section-title__theme-dark {
+.section-title_theme_dark {
   color: white;
   font-size: 60px;
   z-index: 1;
 }
 
-.section-subtitle__theme-dark {
+.section-subtitle_theme_dark {
   color: white;
   z-index: 1;
 }
@@ -300,13 +305,13 @@
   right: -124px;
   height: 636px;
   width: 660px;
+  top: 0;
 }
 
 .footer {
   min-height: 350px;
   background-color: #1f1f1f;
   width: 100%;
-  padding: 0;
   margin: auto;
   padding-top: 60px;
   padding-bottom: 40px;
@@ -314,26 +319,20 @@
   box-sizing: border-box;
 }
 
-.footer__column {
+.footer__columns {
   width: 90%;
   margin: auto;
   display: flex;
   position: relative;
   flex-direction: row;
-}
-
-.footer__column-nav {
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  position: relative;
+  min-height: inherit;
 }
 
 .footer__column_content_copyrights {
-  flex-basis: 711px;
-  display: flex;
+  flex-basis: 711px;  
   justify-content: space-between;
   flex-direction: column;
+  display: flex;
 }
 
 .footer__author {
@@ -360,12 +359,15 @@
 }
 
 .footer__column_content_about {
-  flex-direction: column;
+  flex-direction: column;  
+  margin: 0 auto; 
+  display: flex;  
 }
 
 .footer__column_content_social {
   flex-direction: column;
-  margin: 0;
+  margin: 0 auto;
+  display: flex;
 }
 
 .footer__social-icons {

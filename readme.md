@@ -4,7 +4,7 @@
 I created a web page divided to heading, main, and footer.
 The heading contains a title, subtitle, a picture, description with a link and an animated square.
 
-##The main part contains a few sections:
+## The main part contains a few sections:
 * description - 3 paragraphs.
 * techniques - 5 techniques arranged with a round pictute, header and text.
 * video - 2 videos attached.
@@ -15,7 +15,7 @@ The heading contains a title, subtitle, a picture, description with a link and a
 * kaufman - heading, text a table and animated triangle.
 * resources - 4 usefull resources, attached as links.
 
-##The footer contains:
+## The footer contains:
 * logo
 * copyrights
 * links - about

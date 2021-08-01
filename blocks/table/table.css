@@ -1,11 +1,9 @@
 .table {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    width: 1100px;
+    flex-wrap: wrap;    
     margin: auto;
     list-style: none;
-    justify-content: space-between;
-    align-content: space-between;
+    justify-content: space-between;    
     padding: 0;
   }

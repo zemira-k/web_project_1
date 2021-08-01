@@ -1,0 +1,7 @@
+.logo {
+    width: 154px;
+    height: 31px;
+    display: flex;
+    z-index: 100;
+   /* parameters for the logo*/
+  }

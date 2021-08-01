@@ -1,0 +1,8 @@
+.table__heading {
+    display: flex;
+    line-height: 1.15;
+    font-size: 24px;
+    padding: unset;
+    margin: 0;
+    font-weight: bold;
+  }

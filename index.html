@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./vendor/normalize.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Learning how to learn</title>
 </head>
 
@@ -14,14 +14,12 @@
   <div class="page">
 
     <header class="header">
-      <img class="logo logo_place_header" src="./images/logo_place_header.png" alt="logo practicum">
+      <img class="logo logo_place_header" src="images/logo_place_header.png" alt="logo practicum">
       <h1 class="header__title">learning how to learn</h1>
       <p class="header__subtitle">The most effective, cutting-edge learning techniques
-        that you can
-        apply to your daily life <a href="#" class="header__link">Learn more--></a>
-      </p>
-      <img class="header__main-ilustration" src="./images/header-image.png" alt="header main illustration">
-      <div class="header__square-pic"></div>
+        that you can apply to your daily life <a href="#" class="header__link">Learn more--></a></p>
+      <img class="header__main-ilustration" src="images/header-image.png" alt="header main illustration">
+      <div class="header__square-pic rotation"></div>
     </header>
 
     <main class="content">
@@ -54,57 +52,145 @@
         </div>
       </section>
 
-      <section class="digits">
-        <h2 class="section-title">Facts and figures</h2>
-        <p class="section-subtitle">On learning and the brain</p>
-        <ul class="table">
-          <li class="table__cell">
-            <h3 class="table__heading">86 bilulon</h3>
-            <p class="table__text">The number of neurons in the human brain</p>
+      <section class="techniques">
+        <h2 class="section-title title_line-height">learning techniques</h2>
+        <p class="section-subtitle">Five Strategis from Barbara Oakly</p>
+        <ul class="cards">
+          <li class="cards__item table__cell">
+            <img class="cards__image" src="images/cards-attention.png"
+              alt="A book about 101 assays that will change the way you think">
+            <h3 class="cards__title table__heading">Two Ways of Thinking</h3>
+            <p class="cards__description table__text">Deep understanding comes from being able to toggle back
+              and forth between focused and diffused thinking.</p>
           </li>
-          <li class="table__cell">
-            <h3 class="table__heading">73%</h3>
-            <p class="table__text">The percentage of adults in the US who
-              consider themselves ulfelong learners</p>
-            <p class="table__text">Pew Research Center</p>
+          <li class="cards__item table__cell">
+            <img class="cards__image" src="images/cards-recall.png" alt="A statue of a man trying to concentrate">
+            <h3 class="cards__title table__heading">Recall</h3>
+            <p class="cards__description table__text">Improving your ability to remember key bits of information
+              helps to connect different parts of the brain.</p>
           </li>
-          <li class="table__cell">
-            <h3 class="table__heading">1,000 terabytes</h3>
-            <p class="table__text">The information storage capacity of a human</p>
+          <li class="cards__item table__cell">
+            <img class="cards__image" src="images/cards-interleaving.png"
+              alt="A picture of many people interliving together">
+            <h3 class="cards__title table__heading">Interleaving</h3>
+            <p class="cards__description table__text">When you learn multiple skills at the same time, they
+              reinforce each other.</p>
           </li>
-          <li class="table__cell">
-            <h3 class="table__heading">500 trillion</h3>
-            <p class="table__text">The number of nerve synapses responsible for
-              learning in the average adult human</p>
+          <li class="cards__item table__cell">
+            <img class="cards__image" src="images/cards-question.png"
+              alt="A picture of a man in the middle of an empty lobby of school">
+            <h3 class="cards__title table__heading">Questions</h3>
+            <p class="cards__description table__text">When listening to your teacher, think up a good question,
+              something that you're really itching to know.</p>
           </li>
-          <li class="table__cell">
-            <h3 class="table__heading">420 million</h3>
-            <p class="table__text">The number of adults under 25 with
-              insufficient education for finding employment</p>
-            <p class="table__text">World Bank, 2017</p>
+          <li class="cards__item table__cell">
+            <img class="cards__image" src="images/cards-competence.png" alt="A picture of a pile of books on one hand">
+            <h3 class="cards__title table__heading">Illusion of Competence</h3>
+            <p class="cards__description table__text">Test yourself, write it down, tell other people, and repeat
+              the process in
+              different settings. Only then can you be truly certain you've understood something.</p>
           </li>
-          <li class="table__cell">
-            <h3 class="table__heading">26 years old</h3>
-            <p class="table__text">The age at which Albert Einstein
-              published his groundbreaking paper on special relativity</p>
-          </li>
-          <li class="table__cell">
-            <h3 class="table__heading">1885</h3>
-            <p class="table__text">Development of the forgetting curve</p>
-          </li>
-          <li class="table__cell">
-            <h3 class="table__heading">1897</h3>
-            <p class="table__text">Publication of Ivan Pavlov's research on
-              classical conditioning</p>
+          <li class="cards__item table__cell">
           </li>
         </ul>
+      </section>
+
+      <section class="video">
+        <h2 class="section-title title_line-height">TED talks</h2>
+        <p class="section-subtitle">For lovers of procrastination</p>
+        <div class="video__iframes">
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <section class="oakley">
+        <div class="two-columns">
+          <h2 class="two-columns__brief">Barbara Oakley’s story. </h2>
+          <p class="two-columns__paragraph two-columns__main-text">
+            Math didn't come naturally to Barbara in childhood. She thought of herself as more of a
+            humanities person, and not a brilliant one at that. With an eye to becoming a linguist, after
+            school she enlisted in the army, who sent her to learn Russian. After several years of service,
+            during which she rose to the rank of Captain, Barbara left the army and decided to study
+            engineering. In was during this time that she developed her learning methodology as she was
+            forced to reprogram her brain for a different kind of learning. It turns out that when something
+            doesn't come naturally to you, having to work hard to gain the knowledge that other people
+            may get at first glance gives you a deeper, more comprehensive understanding of the subject matter.
+          </p>
+        </div>
       </section>
 
       <section class="feynman">
         <h2 class="feynman__title">The Feynman Technique</h2>
         <p class="feynman__subtitle">Learn without forgetting</p>
         <a href="#" class="feynman__link">More</a>
-        <img class="feynman__image" src="../images/feynman.png" alt="A picture of Richard Feynman">
+        <img class="feynman__image" src="images/feynman.png" alt="A picture of Richard Feynman">
+      </section>
+
+      <section class="digits">
+        <h2 class="section-title">Facts and figures</h2>
+        <p class="section-subtitle">On learning and the brain</p>
+        <ul class="table">
+          <li class="table__cell table__cell_theme_width">
+            <h3 class="table__heading table__cell_theme_text-position">86 bilulon</h3>
+            <p class="table__text table__cell_theme_text-position table__text_theme_line-height">The number of
+              neurons in the human brain</p>
+          </li>
+          <li class="table__cell table__cell_theme_width">
+            <h3 class="table__heading table__cell_theme_text-position">73%</h3>
+            <p class="table__text table__cell_theme_text-position">The percentage of adults in the US who
+              consider themselves ulfelong learners</p>
+            <p class="table__text table__cell_theme_text-position">Pew Research Center</p>
+          </li>
+          <li class="table__cell table__cell_theme_width">
+            <h3 class="table__heading table__cell_theme_text-position">1,000 terabytes</h3>
+            <p class="table__text table__cell_theme_text-position">The information storage capacity of a human</p>
+          </li>
+          <li class="table__cell table__cell_theme_width">
+            <h3 class="table__heading table__cell_theme_text-position">500 trillion</h3>
+            <p class="table__text table__cell_theme_text-position">The number of nerve synapses responsible for
+              learning in the average adult human</p>
+          </li>
+          <li class="table__cell table__cell_theme_width">
+            <h3 class="table__heading table__cell_theme_text-position">420 million</h3>
+            <p class="table__text table__cell_theme_text-position">The number of adults under 25 with
+              insufficient education for finding employment</p>
+            <p class="table__text table__cell_theme_text-position">World Bank, 2017</p>
+          </li>
+          <li class="table__cell table__cell_theme_width">
+            <h3 class="table__heading table__cell_theme_text-position">26 years old</h3>
+            <p class="table__text table__cell_theme_text-position">The age at which Albert Einstein
+              published his groundbreaking paper on special relativity</p>
+          </li>
+          <li class="table__cell table__cell_theme_width">
+            <h3 class="table__heading table__cell_theme_text-position">1885</h3>
+            <p class="table__text">Development of the forgetting curve</p>
+          </li>
+          <li class="table__cell table__cell_theme_width">
+            <h3 class="table__heading table__cell_theme_text-position">1897</h3>
+            <p class="table__text table__cell_theme_text-position">Publication of Ivan Pavlov's research on
+              classical conditioning</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="khan">
+        <div class="khan__container">
+          <p class="khan__author">Salman Khan</p>
+          <h2 class="khan__title">The One World Schoolhouse</h2>
+          <p class="khan__quote">
+            Sal Khan's passion and innovation is transforming learning for millions of
+            students worldwide. The One World Schoolhouse is a must-read for all
+            who are committed to improving education so students everywhere can
+            gain the skills and knowledge to be successful in school, careers and life</p>
+          <h2 class="khan__quote-author">George Lucas</h2>
+          <h3 class="khan__quote-author-subline">Filmmaker</h3>
+          <div class="khan__book-container">
+            <img class="khan__book-pic" src="images/khan-book-2.png"
+              alt="the one world school house education reimagined salman khan founder of the khan academy">
+            <a class="khan__buy-link" href="#">Buy book--</a>
+          </div>
+        </div>
       </section>
 
       <section class="kaufman">
@@ -153,8 +239,23 @@
             <p class="table__text table__text_theme_dark">Emphasize quantity and speed</p>
           </li>
         </ul>
-        <img class="kaufman__triangle" src="../images/kaufman-triangle.svg"
+        <img class="kaufman__triangle rotation" src="images/kaufman-triangle.svg"
           alt="A big blue triangle, over which Josh Kaufman claims ownership">
+      </section>
+
+      <section class="resources">
+        <h2 class="section-title">Useful resources</h2>
+        <p class="section-subtitle">Further materials on learning techniques and hacks.</p>
+        <nav class="resources__logo-zone">
+          <a class="resources__logo" href="#"><img class="resources__image" src="images/resources-tedED.png"
+              alt="tedED"></a>
+          <a class="resources__logo" href="#"><img class="resources__image" src="images/resources-Medium.png"
+              alt="Medium"></a>
+          <a class="resources__logo" href="#"><img class="resources__image" src="images/resources-dezeen.png"
+              alt="dezeen"></a>
+          <a class="resources__logo" href="#"><img class="resources__image" src="images/resources-goodreads.png"
+              alt="goodreads"></a>
+        </nav>
       </section>
     </main>
 
@@ -162,23 +263,23 @@
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyrights">
           <div class="logo logo_place_footer">
-            <img src="./images/logo_place_footer.png" alt="logo practicum">
+            <img class="logo__image" src="images/logo_place_footer.png" alt="logo practicum">
           </div>
           <p class="footer__author">&copy; 2021 Zemira Kehati</p>
         </div>
-        <nav class="foote__column footer__column_content_about">
+        <nav class="footer__column footer__column_content_about">
           <h2 class="footer__column-heading">About Practicum by Yandex</h2>
           <a class="footer__column-link" href="#">Home page</a>
           <a class="footer__column-link" href="#">Mission</a>
           <a class="footer__column-link" href="#">Professions</a>
         </nav>
-        <nav class="foote__column footer__column_content_social">
+        <nav class="footer__column footer__column_content_social">
           <h2 class="footer__column-heading">Social media</h2>
           <a class="footer__column-link" href="#">
-            <img class="footer__social-icons" src="../images/facebook_white.svg" alt="facebook icon">facebook
+            <img class="footer__social-icons" src="images/facebook_white.svg" alt="facebook icon">facebook
           </a>
           <a class="footer__column-link" href="#">
-            <img class="footer__social-icons" src="../images/instagram_white.svg" alt="instagram icon">instagram
+            <img class="footer__social-icons" src="images/instagram_white.svg" alt="instagram icon">instagram
           </a>
         </nav>
       </div>

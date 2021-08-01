@@ -1,6 +1,6 @@
 .video {
     display: flex;
-    position: relative; 
+    position: relative;
     margin: 100px auto 0 auto;
     justify-content: center;
     flex-direction: column;

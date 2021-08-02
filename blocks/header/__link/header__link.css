@@ -4,6 +4,6 @@
    /*color for header link*/
   }
 
-  .header__link:hover {
-    opacity: 0.5;
+.header__link:hover {  
+  opacity: 0.5;
   }

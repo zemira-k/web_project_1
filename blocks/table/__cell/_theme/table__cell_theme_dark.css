@@ -5,4 +5,7 @@
     margin-right: 0;
     margin-top: 80px;
     z-index: 1;
+    display: flex;
+    padding: unset;
+    flex-direction: column;
   }

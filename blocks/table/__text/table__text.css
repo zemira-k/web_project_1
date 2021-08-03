@@ -1,6 +1,5 @@
 .table__text {
-    display: flex;
-    left: 0;
+    display: flex;    
     font-size: 18px;
     padding: unset;
     font-weight: normal;

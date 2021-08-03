@@ -6,5 +6,5 @@
 
 .resources__logo:hover {
     opacity: 0.5;
-    transition: ease-out;
+    transition: ease-out 3s;
   }
